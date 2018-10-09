@@ -7,6 +7,6 @@ return Object.assign({}, driver, {[key]:value} );
 }
 
 def destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
- driver = [key]value;
+ driver[key] = value;
  return driver;
 }
