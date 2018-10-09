@@ -7,5 +7,6 @@ return Object.assign({}, driver, {[key]:value} );
 }
 
 def updateDriverWithKeyAndValue(driver, key, value) {
-return driver = [key]value;
+ driver = [key]value;
+ return driver;
 }
