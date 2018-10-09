@@ -2,11 +2,11 @@
 
 let driver = {}
 
-def updateDriverWithKeyAndValue(driver, key, value) {
+function updateDriverWithKeyAndValue(driver, key, value) {
   return Object.assign({}, driver, {[key]:value});
 }
 
-def destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
  driver[key] = value;
  return driver
 }
